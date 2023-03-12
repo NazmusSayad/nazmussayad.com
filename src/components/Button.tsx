@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import css from './Button.module.scss'
+import NavLink from './NavLink'
 
 type ButtonProps = {
   children: any
@@ -30,9 +31,13 @@ const Button = ({
   if (href) return <a {...allProps} href={href} children={children} />
   if (to) {
     return nav ? (
-      <Link {...allProps} to={to} children={children} />
+      <NavLink {...allProps} href={to}>
+        {children}
+      </NavLink>
     ) : (
-      <Link {...allProps} to={to} children={children} />
+      <Link href={to}>
+        <a {...allProps}>{children}</a>
+      </Link>
     )
   }
 

@@ -1,5 +1,19 @@
+.Nav {
+  border-bottom: 1px solid clr(7, 0.2);
+}
+
+.wrapper {
+  padding-block: 1.5rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .logo {
-  font-size: 3.75rem;
+  font-size: 4rem;
   line-height: 1;
   min-width: 1em;
 
@@ -12,4 +26,8 @@
     height: 100%;
     width: 100%;
   }
+}
+
+.listContainer {
+  display: flex;
 }
