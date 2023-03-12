@@ -17,6 +17,7 @@
     "paths": {
       "$data/*": ["./src/data/*"],
       "$utils/*": ["./src/utils/*"],
+      "$assets/*": ["./src/assets/*"],
       "$styles/*": ["./src/styles/*"],
       "$layouts/*": ["./src/layouts/*"],
       "$features/*": ["./src/features/*"],

@@ -150,6 +150,11 @@ caniuse-lite@^1.0.30001406:
   optionalDependencies:
     fsevents "~2.3.2"
 
+class-function@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/class-function/-/class-function-1.0.1.tgz#93042f5bb24b83eb479e06f7c3a1a03d5321ff71"
+  integrity sha512-cpgHTOG3jRQzg3y9EyR1jnQGkGc2UiZRmkWs7Vs3ObGveQqSdDLK38zmFHsN6jY+J71+R7/wEDnTjrh4BuQeeA==
+
 css-reset-plus@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/css-reset-plus/-/css-reset-plus-1.0.3.tgz#6d664ddf10dfb2d6b77d713feb98467038b63989"
@@ -171,6 +176,13 @@ fsevents@~2.3.2:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
   integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
+
+get-classnames@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/get-classnames/-/get-classnames-1.0.8.tgz#ada0dc4fbf4fca1d7673fc6d7d1180ac31ee95b4"
+  integrity sha512-ECIkbyDO5iVC0NPbCVnjDMwxq/oV14Cmo0kTQRbaUS0az6jXBEjJCtECX5+g+J9xttidRxSs6wtYJCJXYmGD2w==
+  dependencies:
+    class-function "^1.0.1"
 
 glob-parent@~5.1.2:
   version "5.1.2"

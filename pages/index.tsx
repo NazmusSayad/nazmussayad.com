@@ -1,7 +1,12 @@
 import type { NextPage } from 'next'
+import Nav from '$features/Nav'
 
 const Home: NextPage = () => {
-  return <h1>Hello world!</h1>
+  return (
+    <>
+      <Nav />
+    </>
+  )
 }
 
 export default Home
