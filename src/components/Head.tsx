@@ -29,7 +29,7 @@ const Head = () => {
         href={head.icon}
       />
 
-      <link rel="manifest" href="/manifest.json" />
+      {/* <link rel="manifest" href="/manifest.json" /> */}
       <meta name="language" content="English" />
       <meta name="author" content={head.name} />
       <link rel="me" type="text/html" href={head.github} />
@@ -39,13 +39,10 @@ const Head = () => {
       <meta name="keywords" content={head.keywords.join(' ')} />
       <meta property="og:type" content="website" />
 
-      <meta name="theme-color" content="#343B48" />
+      <meta name="theme-color" content={head.theme} />
       <meta name="apple-mobile-web-app-capable" content="yes" />
-      <meta name="apple-mobile-web-app-status-bar" content={head.theme} />
-      <meta
-        name="apple-mobile-web-app-status-bar-style"
-        content={head.status}
-      />
+      <meta name="apple-mobile-web-app-status-bar" content={head.status} />
+      <meta name="apple-mobile-web-app-status-bar-style" content="default" />
 
       <meta name="google" content="nositelinkssearchbox" />
       <meta name="googlebot" content="translate" />
