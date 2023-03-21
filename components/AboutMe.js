@@ -75,14 +75,14 @@ export default function AboutMe() {
               <br /> I really liked to build stuff using{' '}
               <MoreInfo
                 text="no-code tools,"
-                content="I used to make games without code using RPG Maker VX, and build a simple website with blogspot back in primary school."
+                content="I used to build a simple website with blogspot/wordpress back in primary school."
               />
               and from that, I explored how to code myself, fast-forward to
               today, I do programming in various languages and technologies.
               <br />
               <br />
-              When I'm not coding I play games with my friends, watch good
-              things, or if the weather's good, play nothing! 🏀
+              When I'm not coding, I play games with my friends, or if the
+              weather is good, I go outside to enjoy nature!
             </Text>
           </Stack>
         </SlideUpWhenVisible>

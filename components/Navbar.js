@@ -65,6 +65,11 @@ export default function Navbar({ enableTransition }) {
                   Projects
                 </Button>
               </NextLink>
+              <NextLink href="mailto:sayad.web@gmail.com" passHref>
+                <Button as="a" variant="ghost" fontSize="16px">
+                  Contact
+                </Button>
+              </NextLink>
             </Stack>
           </DrawerBody>
         </DrawerContent>
@@ -116,6 +121,7 @@ export default function Navbar({ enableTransition }) {
               />
             </Text>
           </NextLink>
+
           {isLargerThan768 ? (
             <Box color="textSecondary">
               <NextLink href="/" passHref>
@@ -128,11 +134,11 @@ export default function Navbar({ enableTransition }) {
                   Projects
                 </Button>
               </NextLink>
-              <NextLink href="/contact" passHref>
+              <NextLink href="mailto:sayad.web@gmail.com" passHref>
                 <Button as="a" variant="ghost" p="4" ml="3vw" fontSize="16px">
                   Contact
                 </Button>
-              </NextLink>{' '}
+              </NextLink>
             </Box>
           ) : (
             <Icon as={AiOutlineMenu} w={7} h={7} onClick={onOpen} />

@@ -60,7 +60,7 @@ export default function ContactMe({ contactMe }) {
                 Email
               </Button>
             </Link>
-            <Link
+            {/* <Link
               href="#"
               isExternal
               onClick={() => handleClick('contact_resume')}
@@ -73,7 +73,7 @@ export default function ContactMe({ contactMe }) {
               >
                 Resume
               </Button>
-            </Link>
+            </Link> */}
           </Stack>
         </SlideUpWhenVisible>
       </Stack>
