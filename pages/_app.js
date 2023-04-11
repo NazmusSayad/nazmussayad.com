@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import { Analytics } from '@vercel/analytics/react'
 import { ChakraProvider } from '@chakra-ui/react'
 import customTheme from '../styles/theme'
 import { Global, css } from '@emotion/react'
 import { prismDarkTheme } from '../styles/prism'
+
 const GlobalStyle = ({ children }) => {
   return (
     <>
@@ -77,7 +77,6 @@ function MyApp({ Component, pageProps }) {
           <Component {...pageProps} />
         </GlobalStyle>
       </ChakraProvider>
-      <Analytics />
     </>
   )
 }
