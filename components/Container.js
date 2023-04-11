@@ -5,7 +5,7 @@ import ReactGA from 'react-ga'
 
 const Container = ({ enableTransition, children }) => {
   useEffect(() => {
-    ReactGA.initialize('G-YL56RE9V63')
+    ReactGA.initialize(process.env.NEXT_PUBLIC_UA_CODE)
     ReactGA.pageview(window.location.pathname + window.location.search)
   }, [])
 
