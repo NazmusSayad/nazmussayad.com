@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { Analytics } from '@vercel/analytics/react'
 import { ChakraProvider } from '@chakra-ui/react'
 import customTheme from '../styles/theme'
 import { Global, css } from '@emotion/react'
@@ -77,7 +76,6 @@ function MyApp({ Component, pageProps }) {
           <Component {...pageProps} />
         </GlobalStyle>
       </ChakraProvider>
-      <Analytics />
     </>
   )
 }
