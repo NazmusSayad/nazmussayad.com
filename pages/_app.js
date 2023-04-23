@@ -61,6 +61,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="title" content={title} />
         <meta name="keywords" content={keywords.join(', ')} />
         <meta name="description" content={description} />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
@@ -69,6 +70,8 @@ function MyApp({ Component, pageProps }) {
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:title" content={title} />
         <meta property="twitter:description" content={description} />
+
+        <meta name="theme-color" content="black" />
       </Head>
 
       <ChakraProvider resetCSS theme={customTheme}>
