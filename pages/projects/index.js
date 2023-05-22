@@ -25,8 +25,8 @@ export default function Projects({ projects }) {
             property="twitter:url"
             content="https://www.nazmussayad.com/projects"
           />
-          <meta property="og:image" content="/cat-1080.jpg" />
-          <meta property="twitter:image" content="/cat-1080.jpg" />
+          <meta property="og:image" content="/me.webp" />
+          <meta property="twitter:image" content="/me.webp" />
         </Head>
         <Stack
           spacing={10}

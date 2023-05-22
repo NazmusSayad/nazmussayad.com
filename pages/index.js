@@ -12,8 +12,8 @@ export default function Index({ introduction, projects, contactMe }) {
       <Head>
         <meta property="og:url" content="https://www.nazmussayad.com" />
         <meta property="twitter:url" content="https://www.nazmussayad.com" />
-        <meta property="og:image" content="/cat-1080.jpg" />
-        <meta property="twitter:image" content="/cat-1080.jpg" />
+        <meta property="og:image" content="/me.webp" />
+        <meta property="twitter:image" content="/me.webp" />
       </Head>
 
       <Container enableTransition={true}>
