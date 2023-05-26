@@ -65,11 +65,11 @@ export default function Navbar({ enableTransition }) {
                   Projects
                 </Button>
               </NextLink>
-              <NextLink href="mailto:sayad.web@gmail.com" passHref>
+              {/*    <NextLink href="mailto:mail@sayad.dev" passHref>
                 <Button as="a" variant="ghost" fontSize="16px">
                   Contact
                 </Button>
-              </NextLink>
+              </NextLink> */}
             </Stack>
           </DrawerBody>
         </DrawerContent>
@@ -134,11 +134,11 @@ export default function Navbar({ enableTransition }) {
                   Projects
                 </Button>
               </NextLink>
-              <NextLink href="mailto:sayad.web@gmail.com" passHref>
+              {/*      <NextLink href="mailto:mail@sayad.dev" passHref>
                 <Button as="a" variant="ghost" p="4" ml="3vw" fontSize="16px">
                   Contact
                 </Button>
-              </NextLink>
+              </NextLink> */}
             </Box>
           ) : (
             <Icon as={AiOutlineMenu} w={7} h={7} onClick={onOpen} />
