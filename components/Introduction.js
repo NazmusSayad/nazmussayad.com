@@ -132,7 +132,7 @@ export default function Introduction({ introduction }) {
               </Button>
             </Link>
 
-            <Link href="mailto:mail@sayad.dev" isExternal>
+            <Link href="mailto:me@sayad.dev" isExternal>
               <Button
                 leftIcon={<FaEnvelope fill="#3CCF91" />}
                 transition="0.3s"

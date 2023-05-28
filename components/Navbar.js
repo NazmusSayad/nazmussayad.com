@@ -65,7 +65,7 @@ export default function Navbar({ enableTransition }) {
                   Projects
                 </Button>
               </NextLink>
-              {/*    <NextLink href="mailto:mail@sayad.dev" passHref>
+              {/*    <NextLink href="mailto:me@sayad.dev" passHref>
                 <Button as="a" variant="ghost" fontSize="16px">
                   Contact
                 </Button>
@@ -134,7 +134,7 @@ export default function Navbar({ enableTransition }) {
                   Projects
                 </Button>
               </NextLink>
-              {/*      <NextLink href="mailto:mail@sayad.dev" passHref>
+              {/*      <NextLink href="mailto:me@sayad.dev" passHref>
                 <Button as="a" variant="ghost" p="4" ml="3vw" fontSize="16px">
                   Contact
                 </Button>

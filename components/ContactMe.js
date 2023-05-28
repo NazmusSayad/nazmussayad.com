@@ -46,7 +46,7 @@ export default function ContactMe({ contactMe }) {
         <SlideUpWhenVisible>
           <Stack isInline spacing={4}>
             <Link
-              href="mailto:mail@sayad.dev"
+              href="mailto:me@sayad.dev"
               isExternal
               onClick={() => handleClick('contact_email')}
             >
