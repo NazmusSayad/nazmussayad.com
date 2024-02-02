@@ -46,7 +46,7 @@ export default function Navbar({ enableTransition }) {
               height={32}
               w="auto"
               h="auto"
-              src={'/me.webp'}
+              src={'/me.jpg'}
               transition="0.3s"
               borderRadius="50%"
               alt="project image"
@@ -114,7 +114,7 @@ export default function Navbar({ enableTransition }) {
                 display="block"
                 w="auto"
                 h="auto"
-                src={'/me.webp'}
+                src={'/me.jpg'}
                 transition="0.3s"
                 borderRadius="50%"
                 alt="project image"

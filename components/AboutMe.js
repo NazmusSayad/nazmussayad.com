@@ -103,7 +103,7 @@ export default function AboutMe() {
                 alt=""
               />
               <Image
-                src="/me.webp"
+                src="/me.jpg"
                 w={{ base: '300px', lg: '350px' }}
                 h={{ base: '300px', lg: '350px' }}
                 borderRadius="50%"
