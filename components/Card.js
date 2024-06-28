@@ -62,16 +62,13 @@ export default function Cards({
     } else if (tag == 'SQL') {
       values[0] = 'blue'
       values[1] = FaDatabase
-    }
-    else if (tag == 'Next.js') {
+    } else if (tag == 'Next.js') {
       values[0] = 'gray'
       values[1] = SiNextdotjs
-    }
-    else if (tag == 'Chakra UI') {
+    } else if (tag == 'Chakra UI') {
       values[0] = 'teal'
       values[1] = SiChakraui
-    }
-    else {
+    } else {
       values[0] = 'gray'
       values[1] = FaCode
     }
@@ -109,6 +106,7 @@ export default function Cards({
       <Link href={deployLink} isExternal>
         <ScaleFade in={true} transition={{ duration: 1 }}>
           <Image
+            unoptimized
             width={1250}
             height={600}
             w="auto"
