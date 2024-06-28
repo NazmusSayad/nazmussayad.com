@@ -106,7 +106,6 @@ export default function Cards({
       <Link href={deployLink} isExternal>
         <ScaleFade in={true} transition={{ duration: 1 }}>
           <Image
-            unoptimized
             width={1250}
             height={600}
             w="auto"

@@ -19,6 +19,8 @@ module.exports = {
       'cdn-images-1.medium.com',
       'cdn.cloudflare.steamstatic.com',
       'cdn.discordapp.com',
+      'nazmussayad.com',
+      'www.nazmussayad.com',
     ],
   },
 }
